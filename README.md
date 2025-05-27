@@ -1,6 +1,6 @@
 # Snake AI z Wykorzystaniem Deep Q-Network (DQN)
 
-![Snake Game Screenshot/GIF](link_do_twojego_obrazka_lub_gifa_prezentującego_grę.gif) 
+![Snake Game Screenshot/GIF](Snake.gif) 
 
 ## Spis Treści
 - [Wprowadzenie](#wprowadzenie)
@@ -152,7 +152,7 @@ Główne hiperparametry użyte w treningu:
 - Częstotliwość aktualizacji sieci docelowej: co 5 epizodów
 
 ## Wyniki Treningu
-![Avg Score Plot](link_do_wykresu_sredniego_wyniku.png) 
+![Avg Score Plot](old scores/training_plots_with_avg/plot_score_max_avg.png) 
 *Przykład wykresu średniego wyniku na przestrzeni epizodów. Szczegółowe wykresy można wygenerować za pomocą skryptu `plot_training_log_separated_with_avg.py` na podstawie plików `.csv` z katalogu `old scores/`.*
 
 Agent wykazał zdolność do nauki, co objawiało się wzrostem średniego wyniku i liczby kroków w epizodzie. Po 800 epizodach agent osiągał średni wynik około X (wstaw wartość ze swoich logów) i maksymalny wynik Y (wstaw wartość). Szczegółowa analiza logów treningowych znajduje się w dołączonym sprawozdaniu (jeśli dotyczy).
