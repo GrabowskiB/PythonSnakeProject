@@ -63,8 +63,7 @@ Głównym celem projektu było:
 ### Kroki Instalacji
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://twoj_link_do_repozytorium.git
-   cd nazwa_twojego_repozytorium
+   git clone https://github.com/GrabowskiB/PythonSnakeProject.git
    ```
 2. (Zalecane) Utwórz i aktywuj środowisko wirtualne:
    ```bash
@@ -152,7 +151,7 @@ Główne hiperparametry użyte w treningu:
 - Częstotliwość aktualizacji sieci docelowej: co 5 epizodów
 
 ## Wyniki Treningu
-![Avg Score Plot](old scores/training_plots_with_avg/plot_score_max_avg.png) 
+![Avg Score Plot](old_scores/training_plots_with_avg/plot_score_max_avg.png) 
 *Przykład wykresu średniego wyniku na przestrzeni epizodów. Szczegółowe wykresy można wygenerować za pomocą skryptu `plot_training_log_separated_with_avg.py` na podstawie plików `.csv` z katalogu `old scores/`.*
 
 Agent wykazał zdolność do nauki, co objawiało się wzrostem średniego wyniku i liczby kroków w epizodzie. Po 800 epizodach agent osiągał średni wynik około X (wstaw wartość ze swoich logów) i maksymalny wynik Y (wstaw wartość). Szczegółowa analiza logów treningowych znajduje się w dołączonym sprawozdaniu (jeśli dotyczy).
