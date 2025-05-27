@@ -164,7 +164,7 @@ Agent wykazał zdolność do nauki, co objawiało się wzrostem średniego wynik
 - Dłuższy trening na większej liczbie epizodów.
 
 ## Autor
-**Bartek Grabowski]**
+**Bartek Grabowski**
 
 ## Licencja
 Kod udostępniony do celów edukacyjnych.
